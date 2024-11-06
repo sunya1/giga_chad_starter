@@ -1,0 +1,6 @@
+# кодогенерацию запускать командой 'flutter gen-l10n'
+synthetic-package: false
+arb-dir: lib/core/localization/l10n
+template-arb-file: app_en.arb
+nullable-getter: false
+untranslated-messages-file: untranslated-messages.txt
