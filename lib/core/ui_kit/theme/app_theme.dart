@@ -7,7 +7,7 @@ import 'package:giga_chad_starter/core/ui_kit/theme/textStyle/app_text_styles.da
 abstract class AppThemeScheme {
   final ColorsScheme? appColorsScheme;
   final Brightness? brightness;
-
+  
   const AppThemeScheme({
     this.brightness,
     this.appColorsScheme,

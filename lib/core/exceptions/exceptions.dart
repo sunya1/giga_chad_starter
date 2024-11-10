@@ -123,3 +123,10 @@ final class BusinessException extends CustomBackendException {
     super.errorDescription,
   });
 }
+
+final class RevokeTokenException extends RemoteException {
+  const RevokeTokenException({
+     super.errorData,
+    super.errorMsg,
+  });
+}
